@@ -1,0 +1,18 @@
+#Задание 1, лекция 3
+from random import randint 
+a=[]
+for i in range(30):
+    a.append(randint(0,100))
+
+a.sort()
+
+for i in a:
+    if [0] <[1]:
+        v=a.pop(0)
+    if [-1] > [-2]:
+       c=a.pop(-1)
+Summa=sum(a)
+dlina=len(a)
+sr=Summa/dlina
+
+print(sr)
